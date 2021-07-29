@@ -1,0 +1,43 @@
+.class-item-ofert-root {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  row-gap: 10px;
+  padding-bottom: 10px;
+  border-bottom-width: 10px;
+}
+
+.class-item-ofert-image {
+  width: 200px;
+  height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.class-item-ofert-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.class-item-ofert-icon-round {
+  border-radius: 100%;
+  border: 3px solid #000;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.class-item-ofert-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #000;
+  margin-left: 10px;
+  margin-right: 10px;
+}
