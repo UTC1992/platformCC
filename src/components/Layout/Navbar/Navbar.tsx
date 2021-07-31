@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar: React.FC = () => (
-  <nav className=" class-navbar-container
-  navbar navbar-expand-md navbar-light fixed-top"
+  <nav className="class-navbar-container
+  navbar navbar-expand-sm navbar-light fixed-top"
   >
     <div className="container-fluid">
       <Link to="/" className="navbar-brand">

@@ -11,12 +11,12 @@ interface ILayoutProps {
 const Layout: React.FC<ILayoutProps> = ( props ) => {
   const { children } = props;
   return (
-    <div>
+    <div className="class-layout-container-root">
       <div>
         <Navbar />
       </div>
       <Slider />
-      <main className="class-layout-container">
+      <main>
         {children}
       </main>
       <Footer />
