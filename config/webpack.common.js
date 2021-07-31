@@ -9,7 +9,6 @@ module.exports = {
     path: path.resolve( __dirname, '../dist'),
     filename: 'build.[contenthash].js',
     publicPath: '/',
-    assetModuleFilename: 'images/[hash][ext][query]'
   },
   resolve: {
     extensions: ['.tsx','.ts','.js'],
@@ -33,7 +32,7 @@ module.exports = {
         test: /\.(png|jpg|jpeg|svg|gif)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'static/[hash][ext][query]'
+          filename: './static/[hash][ext][query]'
         }
       },
       // {

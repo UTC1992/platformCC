@@ -1,9 +1,12 @@
 import React from 'react';
 import Category from './components/Category/Category';
+import FavoritesLine from './components/FavoritesLine/FavoritesLine';
 import HeaderOfert from './components/HeaderOfert/HeaderOfert';
 import ItemOfert from './components/ItemOfert/ItemOfert';
-import { listCategory, listItemOfert } from './Home';
+import { listCategory, listItemOfert, listItemTestimony } from './Home';
 import './Home.css';
+import Testimonials from './components/Testimonials/Testimonials';
+import ItemTestimony from './components/ItemTestimony/ItemTestimony';
 
 const HomeView: React.FC = () => (
   <div>
@@ -59,7 +62,25 @@ const HomeView: React.FC = () => (
       </div>
       <div className="row">
         <div className="col">
-          Column
+          <FavoritesLine />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <Testimonials />
+          <div className="class-home-row">
+            {listItemTestimony.map(( item: any, i: number ) => (
+              <div key={i.toString()}>
+                <ItemTestimony
+                  image={item.image}
+                  username={item.username}
+                  comment={item.comment}
+                  priceBase={item.priceBase}
+                  priceSale={item.priceSale}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

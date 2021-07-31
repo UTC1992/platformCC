@@ -53,3 +53,27 @@ export const listItemOfert = [
     price: '$ 90,000',
   },
 ];
+
+export const listItemTestimony = [
+  {
+    username: 'Usuario A',
+    image: demo,
+    comment: 'Amigable, de facil acceso y muy rapido',
+    priceBase: '$ 75,000',
+    priceSale: '$ 95,000',
+  },
+  {
+    username: 'Usuario A',
+    image: demo,
+    comment: 'Amigable, de facil acceso y muy rapido',
+    priceBase: '$ 75,000',
+    priceSale: '$ 95,000',
+  },
+  {
+    username: 'Usuario A',
+    image: demo,
+    comment: 'Amigable, de facil acceso y muy rapido',
+    priceBase: '$ 75,000',
+    priceSale: '$ 95,000',
+  },
+];

@@ -1,0 +1,90 @@
+.class-item-testimony-root {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  row-gap: 15px;
+  padding-bottom: 0px;
+  border-bottom-width: 10px;
+}
+
+.class-item-testimony-image {
+  width: 100%;
+  height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.class-item-testimony-line {
+  width: 100%;
+  height: 10px;
+  background-color: aquamarine;
+}
+
+.class-item-testimony-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.class-item-testimony-comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.class-item-testimony-comment-text {
+  width: 80%;
+  text-align: center;
+}
+
+.class-item-testimony-line-2 {
+  height: 4px;
+  margin: 0px 10px;
+  background-color: aquamarine;
+}
+
+.class-item-testimony-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.class-item-testimony-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 10px;
+}
+
+.class-item-testimony-calification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.class-item-testimony-star-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.class-item-testimony-content-play {
+  width: 35%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaa;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

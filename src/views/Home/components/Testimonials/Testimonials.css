@@ -1,0 +1,11 @@
+.class-testimonials-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
