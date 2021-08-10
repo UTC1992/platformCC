@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
-import Slider from './Slider/Slider';
 import './Layout.css';
 
 interface ILayoutProps {
@@ -15,7 +14,6 @@ const Layout: React.FC<ILayoutProps> = ( props ) => {
       <div>
         <Navbar />
       </div>
-      <Slider />
       <main>
         {children}
       </main>

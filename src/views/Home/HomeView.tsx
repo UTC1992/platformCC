@@ -7,9 +7,11 @@ import { listCategory, listItemOfert, listItemTestimony } from './Home';
 import './Home.css';
 import Testimonials from './components/Testimonials/Testimonials';
 import ItemTestimony from './components/ItemTestimony/ItemTestimony';
+import Slider from '../../components/Layout/Slider/Slider';
 
 const HomeView: React.FC = () => (
   <div>
+    <Slider />
     <div className="class-home-row">
       {listCategory.map(( item: any, i: number ) => (
         <div key={i.toString()}>

@@ -75,8 +75,7 @@
     "resolveJsonModule": true,
   },
   "include": [
-    "./src/**/*",
-    "./src/customsvg.d.ts",
+    "src",
     "./src/customimg.d.ts"
   ],
   "exclude": [

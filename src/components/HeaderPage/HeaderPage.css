@@ -1,0 +1,17 @@
+.class-header-page-root {
+  margin: 0px 25%;
+}
+
+.class-header-page-title {
+  width: 100%;
+  text-align: center;
+}
+
+.class-header-page-subtitle {
+  font-size: 14pt;
+}
+
+.class-header-line-bottom {
+  background-color: rgb(26, 26, 184);
+  height: 20px;
+}
