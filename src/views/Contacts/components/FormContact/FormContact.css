@@ -1,0 +1,7 @@
+.class-form-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 15px;
+}

@@ -11,13 +11,13 @@ const Navbar: React.FC = () => (
         Logo
       </Link>
       <Link to="/" className="navbar-brand">
-        Testimonios
+        TESTIMONIOS
       </Link>
       <Link to="/nosotros" className="navbar-brand">
-        Nosotros
+        NOSOTROS
       </Link>
       <Link to="/contactos" className="navbar-brand">
-        Contactos
+        CONTACTOS
       </Link>
       <Link to="/" className="navbar-brand">
         Icon User

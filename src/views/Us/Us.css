@@ -1,13 +1,18 @@
 .class-us-root {
   margin-top: 100px;
+  background-color: #aaa;
 }
 
 .class-us-row-1 {
-  margin: 0px 25%;
+  margin-top: 100px;
   margin-bottom: 200px;
 }
 
 .class-us-line-bottom {
   background-color: rgb(26, 26, 184);
   height: 45px;
+}
+
+.class-us-image1 {
+  width: 100vw;
 }
