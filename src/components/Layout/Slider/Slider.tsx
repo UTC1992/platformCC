@@ -2,7 +2,8 @@ import React from 'react';
 import './Slider.css';
 import { Carousel } from 'react-bootstrap';
 import Image1 from '../../../asset/resource/IMG-001.jpg';
-import Image2 from '../../../asset/resource/IMG-003.jpg';
+import Image2 from '../../../asset/resource/IMG-002.jpg';
+import Image3 from '../../../asset/resource/IMG-003.jpg';
 
 const Slider: React.FC = () => (
   <div className="class-slider-container">
@@ -22,6 +23,18 @@ const Slider: React.FC = () => (
         <img
           className="d-block w-100"
           src={Image2}
+          alt="First slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus ma</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Image3}
           alt="First slide"
         />
 

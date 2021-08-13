@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ProfileIcon from '../../../asset/resource/svg/ICN-002.svg';
+import LogoIcon from '../../../asset/resource/svg/ICN-001.svg';
 import './Navbar.css';
 
 const Navbar: React.FC = () => (
@@ -8,7 +10,9 @@ const Navbar: React.FC = () => (
   >
     <div className="container-fluid">
       <Link to="/" className="navbar-brand">
-        Logo
+        <div className="class-navbar-logo-icon">
+          <img src={LogoIcon} alt="" />
+        </div>
       </Link>
       <Link to="/" className="navbar-brand">
         TESTIMONIOS
@@ -20,7 +24,9 @@ const Navbar: React.FC = () => (
         CONTACTOS
       </Link>
       <Link to="/" className="navbar-brand">
-        Icon User
+        <div className="class-navbar-profile-icon">
+          <img src={ProfileIcon} alt="" />
+        </div>
       </Link>
     </div>
   </nav>

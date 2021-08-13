@@ -12,7 +12,7 @@
 
 .class-item-favorite-content {
   border-radius: 100%;
-  border: 3px solid #000;
+  border: 3px solid #003DEA;
   width: 60px;
   height: 60px;
   display: flex;
@@ -25,6 +25,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #003DEA;
 }
 
 .class-favorite-circle-1 {

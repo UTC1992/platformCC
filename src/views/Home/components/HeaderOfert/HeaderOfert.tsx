@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 interface IProps {
   title: string;
@@ -12,12 +13,14 @@ const HeaderOfert: React.FC<IProps> = ( props ) => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-8">
+        <div className="col-10">
           <div>{title}</div>
           <div>{subtitle}</div>
         </div>
-        <div className="col-4">
-          <span>{titlelink}</span>
+        <div className="col-2">
+          <Link to="/">
+            <span>{titlelink}</span>
+          </Link>
         </div>
       </div>
     </div>

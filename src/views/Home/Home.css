@@ -1,3 +1,7 @@
+.class-home-root {
+  /* margin-top: 100px; */
+}
+
 .class-home-row {
   display: flex;
   flex-direction: row;
@@ -10,6 +14,18 @@
   row-gap: 10px;
 }
 
-.class-home-root {
-  margin-top: 100px;
+.class-home-container-categories {
+  background-color: #003DEA;
+  color: #ffffff;
+}
+
+.class-home-container-oferts {
+  padding-bottom: 100px;
+  border: 1px solid #000;
+}
+
+.class-home-header-ofert {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #003DEA;
 }

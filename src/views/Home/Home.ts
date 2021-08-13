@@ -1,29 +1,35 @@
 import demo from '../../asset/resource/image1.jpg';
+import Cat1 from '../../asset/resource/svg/MQ-001.svg';
+import Cat2 from '../../asset/resource/svg/MQ-002.svg';
+import Cat3 from '../../asset/resource/svg/MQ-003.svg';
+import Cat4 from '../../asset/resource/svg/MQ-004.svg';
+import Cat5 from '../../asset/resource/svg/MQ-005.svg';
+import Cat6 from '../../asset/resource/svg/MQ-006.svg';
 
 export const listCategory = [
   {
     title: 'MAQUINARIA',
-    image: demo,
+    image: Cat1,
   },
   {
     title: 'INMUEBLES',
-    image: demo,
+    image: Cat2,
   },
   {
     title: 'VEHICULAR',
-    image: demo,
+    image: Cat3,
   },
   {
     title: 'EQUIPO',
-    image: demo,
+    image: Cat4,
   },
   {
     title: 'CHATARRA',
-    image: demo,
+    image: Cat5,
   },
   {
     title: 'ARTÍCULOS',
-    image: demo,
+    image: Cat6,
   },
 ];
 
