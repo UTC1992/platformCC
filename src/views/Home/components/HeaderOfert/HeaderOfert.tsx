@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import './HeaderOfert.css';
 
 interface IProps {
   title: string;
@@ -12,15 +12,13 @@ const HeaderOfert: React.FC<IProps> = ( props ) => {
 
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-10">
+      <div className="class-header-ofert-row">
+        <div>
           <div>{title}</div>
           <div>{subtitle}</div>
         </div>
-        <div className="col-2">
-          <Link to="/">
-            <span>{titlelink}</span>
-          </Link>
+        <div>
+          <span>{titlelink}</span>
         </div>
       </div>
     </div>

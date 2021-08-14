@@ -1,0 +1,9 @@
+.class-header-ofert-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid #000; */
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}

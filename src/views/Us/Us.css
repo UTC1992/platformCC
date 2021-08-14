@@ -1,18 +1,57 @@
 .class-us-root {
-  margin-top: 100px;
-  background-color: #aaa;
+  margin-top: 60px;
 }
 
 .class-us-row-1 {
-  margin-top: 100px;
-  margin-bottom: 200px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  background-image: url('../../asset/resource/FND-001.jpg');
+  background-size: cover;
 }
 
 .class-us-line-bottom {
-  background-color: rgb(26, 26, 184);
+  background-color: #003DEA;
   height: 45px;
 }
 
 .class-us-image1 {
-  width: 100vw;
+  width: 100%;
+}
+
+.class-us-container-header {
+  padding: 50px 0px;
+  /* border: 1px solid #aaa; */
+  background-image: url('../../asset/resource/FND-001.jpg');
+  background-size: cover;
+}
+
+.class-us-text-title {
+  color: #4F4E50;
+}
+
+.class-us-text-subtitle {
+  color: #003DEA;
+  font-size: 12pt;
+}
+
+.class-us-paragraph {
+  text-align: justify;
+  font-size: 10pt;
+  color: #4F4E50
+}
+
+.class-us-row-item-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  color: #4F4E50;
+  font-size: 8pt;
+  height: 50px;
+}
+
+.class-us-item-bar-img {
+  height: 100px;
+  width: 200px;
 }

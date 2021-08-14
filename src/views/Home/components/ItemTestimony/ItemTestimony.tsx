@@ -22,7 +22,10 @@ const ItemTestimony: React.FC<IProps> = ( props ) => {
         <div className="class-item-testimony-line" />
       </div>
       <div className="class-item-testimony-row">
-        <IconsFa.FaUserCircle fontSize="25" />
+        <IconsFa.FaUserCircle
+          fontSize="25"
+          className="class-item-text-color"
+        />
         <span>{username}</span>
       </div>
       <div className="class-item-testimony-comment">
@@ -34,26 +37,44 @@ const ItemTestimony: React.FC<IProps> = ( props ) => {
       <div className="class-item-testimony-calification">
         CALIFICACIÓN
         <div className="class-item-testimony-star-content">
-          <IconsBs.BsFillStarFill fontSize="30" />
-          <IconsBs.BsFillStarFill fontSize="30" />
-          <IconsBs.BsFillStarFill fontSize="30" />
-          <IconsBs.BsFillStarFill fontSize="30" />
-          <IconsBs.BsFillStarFill fontSize="30" />
+          <IconsBs.BsFillStarFill
+            fontSize="30"
+            className="class-item-stars-color"
+          />
+          <IconsBs.BsFillStarFill
+            fontSize="30"
+            className="class-item-stars-color"
+          />
+          <IconsBs.BsFillStarFill
+            fontSize="30"
+            className="class-item-stars-color"
+          />
+          <IconsBs.BsFillStarFill
+            fontSize="30"
+            className="class-item-stars-color"
+          />
+          <IconsBs.BsFillStarFill
+            fontSize="30"
+            className="class-item-stars-color"
+          />
         </div>
       </div>
       <div className="class-item-testimony-footer">
         <div className="class-item-testimony-column">
           <span>Precio Base</span>
-          <span>{priceBase}</span>
+          <span className="class-item-text-color">{priceBase}</span>
         </div>
         <div className="class-item-testimony-column">
           <span>Precio Venta</span>
-          <span>{priceSale}</span>
+          <span className="class-item-text-color">{priceSale}</span>
         </div>
       </div>
       <div className="class-item-testimony-row">
         <div className="class-item-testimony-content-play">
-          <IconsFa.FaPlayCircle fontSize="25" />
+          <IconsFa.FaPlayCircle
+            fontSize="25"
+            className="class-item-text-color"
+          />
         </div>
       </div>
     </div>

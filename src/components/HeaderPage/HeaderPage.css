@@ -1,17 +1,24 @@
 .class-header-page-root {
   margin: 0px 25%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-bottom: 10px;
 }
 
 .class-header-page-title {
   width: 100%;
   text-align: center;
+  color: #4F4E50;
 }
 
 .class-header-page-subtitle {
   font-size: 14pt;
+  text-align: center;
+  color: #003DEA;
 }
 
 .class-header-line-bottom {
-  background-color: rgb(26, 26, 184);
+  background-color: #003DEA;
   height: 20px;
 }

@@ -14,7 +14,7 @@ const FormContact: React.FC = () => (
       id="floatingTextarea"
       rows={10}
     />
-    <Button title="ENVIAR" />
+    <Button primary title="ENVIAR" />
   </div>
 );
 

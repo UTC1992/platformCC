@@ -1,7 +1,16 @@
 .class-button-root {
-  background-color: blue;
-  color: #ffffff;
   border-radius: 10px;
   font-size: 14px;
   padding: 2px 30px;
+  border-style: none;
+}
+
+.class-button-blue {
+  background-color: #003DEA;
+  color: #ffffff;
+}
+
+.class-button-white {
+  background-color: #ffffff;
+  color: #4F4E50;
 }
